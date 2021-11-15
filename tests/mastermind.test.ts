@@ -1,4 +1,4 @@
-import { evaluate } from "../mastermind";
+import { evaluate } from "../src/mastermind";
 
 test('one secret, one guess, no match', () => {
   expect(evaluate(["blue"], ["red"])).toStrictEqual([0, 0]);
